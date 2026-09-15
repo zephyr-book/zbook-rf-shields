@@ -39,7 +39,7 @@ LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
-CrossRefLocationStyle=1
+CrossRefLocationStyle=2
 CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GOVQVHNV
 
 [Document3]
-DocumentPath=[03] - A4.SchDoc
+DocumentPath=[03] - LORA MODULE AND CONNECTIONS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -101,24 +101,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YFDTFRPB
 
 [Document4]
-DocumentPath=[04] - A3.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=3
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XUFWDCSE
-
-[Document5]
-DocumentPath=[05] - REVISION HISTORY.SchDoc
+DocumentPath=[04] - REVISION HISTORY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -134,8 +117,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QIWPOGFT
 
-[Document6]
-DocumentPath=zbook-rf-shields-P1.PCBDwf
+[Document5]
+DocumentPath=zbook-rf-shields-LORA-P1.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -145,14 +128,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
-DocumentPath=zbook-rf-shields-P1.PcbLib
+[Document6]
+DocumentPath=zbook-rf-shields-LORA-P1.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -162,14 +145,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BXNWUCIY
 
-[Document8]
-DocumentPath=zbook-rf-shields-P1.SchLib
+[Document7]
+DocumentPath=zbook-rf-shields-LORA-P1.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -179,14 +162,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UPYVCTEO
 
-[Document9]
-DocumentPath=zbook-rf-shields-P1.OutJob
+[Document8]
+DocumentPath=zbook-rf-shields-LORA-P1.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -196,14 +179,31 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document9]
+DocumentPath=zbook-rf-shields-LORA-P1.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document10]
-DocumentPath=zbook-rf-shields-P1.BomDoc
+DocumentPath=zbook-rf-shields-LORA-P1.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -213,31 +213,14 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document11]
-DocumentPath=zbook-rf-shields-P1.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=5
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NBQAKXVG
 
-[Document12]
-DocumentPath=zbook-rf-shields-P1.PcbDoc
+[Document11]
+DocumentPath=zbook-rf-shields-LORA-P1.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -247,35 +230,69 @@ AnnotateOrder=-1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ULGTLAGS
+DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueId=e0641e28-87ca-4c0a-968d-978fef30d126
+Description=SMA
+AllowFabrication=0
+ParameterCount=0
+VariationCount=5
+Variation1=Designator=R2|UniqueId=\UPEUGJIS|Kind=1|AlternatePart=
+Variation2=Designator=C3|UniqueId=\YNKQFPYT|Kind=1|AlternatePart=
+Variation3=Designator=L2|UniqueId=\ETNKSMJW|Kind=1|AlternatePart=
+Variation4=Designator=C4|UniqueId=\EPWTCQNP|Kind=1|AlternatePart=
+Variation5=Designator=ANT1|UniqueId=\PGAGUSJR|Kind=1|AlternatePart=
+ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueId=a312e2ed-42b5-4c32-ac86-a2694bdab593
+Description=UFL
+AllowFabrication=0
+ParameterCount=0
+VariationCount=5
+Variation1=Designator=R1|UniqueId=\QURGSCTO|Kind=1|AlternatePart=
+Variation2=Designator=C1|UniqueId=\YLYGEPMH|Kind=1|AlternatePart=
+Variation3=Designator=L1|UniqueId=\UDOCYPUN|Kind=1|AlternatePart=
+Variation4=Designator=C2|UniqueId=\KMCHICHV|Kind=1|AlternatePart=
+Variation5=Designator=ANT2|UniqueId=\HRFRRZGT|Kind=1|AlternatePart=
+ParamVariationCount=0
+
+[ProjectVariant3]
+UniqueId=ba52293e-5089-49e8-a0f7-6198d5e21e41
+Description=PCB
+AllowFabrication=0
+ParameterCount=0
+VariationCount=0
+ParamVariationCount=0
 
 [Parameter1]
-Name=CheckedProject
-Value=Engineer02
+Name=Website
+Value=http://www.google.com
 
 [Parameter2]
-Name=Company
-Value=MyCompany
-
-[Parameter3]
-Name=DesignedProject
-Value=Engineer01
-
-[Parameter4]
-Name=TitleProject
-Value=Project Name
-
-[Parameter5]
 Name=VersionRevision
 Value=P1
 
+[Parameter3]
+Name=TitleProject
+Value=Zbook-LoRa-Shield
+
+[Parameter4]
+Name=DesignedProject
+Value=Vinicius Carvalho
+
+[Parameter5]
+Name=Company
+Value=Zbook
+
 [Parameter6]
-Name=Website
-Value=http://www.google.com
+Name=CheckedProject
+Value=Vinicius Carvalho
 
 [Configuration1]
 Name=Sources
@@ -1286,6 +1303,13 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=NetANT1_1|NetColor=clYellow
+Net2=NetName=NetANT2_1|NetColor=clYellow
+Net3=NetName=NetC1_1|NetColor=clYellow
+Net4=NetName=NetC3_1|NetColor=clYellow
+Net5=NetName=NetR1_1|NetColor=clYellow
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
