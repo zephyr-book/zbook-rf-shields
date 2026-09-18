@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=PCB
 
 [Preferences]
 PrefsVaultGUID=
@@ -234,65 +235,60 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ULGTLAGS
 
 [ProjectVariant1]
-UniqueId=e0641e28-87ca-4c0a-968d-978fef30d126
-Description=SMA
-AllowFabrication=0
-ParameterCount=0
-VariationCount=5
-Variation1=Designator=R2|UniqueId=\UPEUGJIS|Kind=1|AlternatePart=
-Variation2=Designator=C3|UniqueId=\YNKQFPYT|Kind=1|AlternatePart=
-Variation3=Designator=L2|UniqueId=\ETNKSMJW|Kind=1|AlternatePart=
-Variation4=Designator=C4|UniqueId=\EPWTCQNP|Kind=1|AlternatePart=
-Variation5=Designator=ANT1|UniqueId=\PGAGUSJR|Kind=1|AlternatePart=
-ParamVariationCount=0
-
-[ProjectVariant2]
 UniqueId=a312e2ed-42b5-4c32-ac86-a2694bdab593
 Description=UFL
 AllowFabrication=0
 ParameterCount=0
-VariationCount=5
+VariationCount=8
 Variation1=Designator=R1|UniqueId=\QURGSCTO|Kind=1|AlternatePart=
 Variation2=Designator=C1|UniqueId=\YLYGEPMH|Kind=1|AlternatePart=
 Variation3=Designator=L1|UniqueId=\UDOCYPUN|Kind=1|AlternatePart=
 Variation4=Designator=C2|UniqueId=\KMCHICHV|Kind=1|AlternatePart=
-Variation5=Designator=ANT2|UniqueId=\HRFRRZGT|Kind=1|AlternatePart=
+Variation5=Designator=C1|UniqueId=\WUISTMJB|Kind=1|AlternatePart=
+Variation6=Designator=C2|UniqueId=\ZWPCRCFV|Kind=1|AlternatePart=
+Variation7=Designator=C3|UniqueId=\DIKUCGUQ|Kind=1|AlternatePart=
+Variation8=Designator=C4|UniqueId=\YAHIJIEE|Kind=1|AlternatePart=
 ParamVariationCount=0
 
-[ProjectVariant3]
+[ProjectVariant2]
 UniqueId=ba52293e-5089-49e8-a0f7-6198d5e21e41
 Description=PCB
 AllowFabrication=0
 ParameterCount=0
-VariationCount=0
+VariationCount=5
+Variation1=Designator=C1|UniqueId=\WUISTMJB|Kind=1|AlternatePart=
+Variation2=Designator=C2|UniqueId=\ZWPCRCFV|Kind=1|AlternatePart=
+Variation3=Designator=C3|UniqueId=\DIKUCGUQ|Kind=1|AlternatePart=
+Variation4=Designator=C4|UniqueId=\YAHIJIEE|Kind=1|AlternatePart=
+Variation5=Designator=R2|UniqueId=\UPEUGJIS|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Website
-Value=http://www.google.com
-
-[Parameter2]
-Name=VersionRevision
-Value=P1
-
-[Parameter3]
-Name=TitleProject
-Value=Zbook-LoRa-Shield
-
-[Parameter4]
-Name=DesignedProject
+Name=CheckedProject
 Value=Vinicius Carvalho
 
-[Parameter5]
+[Parameter2]
 Name=Company
 Value=Zbook
 
-[Parameter6]
-Name=CheckedProject
+[Parameter3]
+Name=DesignedProject
 Value=Vinicius Carvalho
+
+[Parameter4]
+Name=TitleProject
+Value=Zbook-LoRa-Shield
+
+[Parameter5]
+Name=VersionRevision
+Value=P1
+
+[Parameter6]
+Name=Website
+Value=http://www.google.com
 
 [Configuration1]
 Name=Sources
@@ -1305,11 +1301,17 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=NetANT1_1|NetColor=clYellow
-Net2=NetName=NetANT2_1|NetColor=clYellow
-Net3=NetName=NetC1_1|NetColor=clYellow
-Net4=NetName=NetC3_1|NetColor=clYellow
-Net5=NetName=NetR1_1|NetColor=clYellow
+Net1=NetName=+3V3|NetColor=$00164FDE
+Net2=NetName=GND|NetColor=clWhite
+Net3=NetName=NetAE1_1|NetColor=clYellow
+Net4=NetName=NetAE2_1|NetColor=clYellow
+Net5=NetName=NetANT1_1|NetColor=clYellow
+Net6=NetName=NetANT2_1|NetColor=clYellow
+Net7=NetName=NetC1_1|NetColor=clYellow
+Net8=NetName=NetC1_2|NetColor=clYellow
+Net9=NetName=NetC3_1|NetColor=clYellow
+Net10=NetName=NetC3_2|NetColor=clYellow
+Net11=NetName=NetR1_1|NetColor=clYellow
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
