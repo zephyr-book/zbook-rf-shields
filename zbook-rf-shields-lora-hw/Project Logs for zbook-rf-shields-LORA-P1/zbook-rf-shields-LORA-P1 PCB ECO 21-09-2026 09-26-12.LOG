@@ -1,0 +1,23 @@
+Added Component: Designator=CN1(SAMTEC-SLW-107-01-X-D)
+Add component (AddParameter): Name = ".Mounting"; Value = "PTH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".PCBChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = ".SCHChecked"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer 1"; Value = "Samtec Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number 1"; Value = "SAMTEC-SLW-107-01-X-D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetCN1_1 Pin=CN1-1
+Added Pin To Net: NetName=NetCN1_2 Pin=CN1-2
+Added Pin To Net: NetName=GND Pin=CN1-3
+Added Pin To Net: NetName=MOSI Pin=CN1-4
+Added Pin To Net: NetName=SCK Pin=CN1-5
+Added Pin To Net: NetName=MISO Pin=CN1-6
+Added Pin To Net: NetName=RESET Pin=CN1-7
+Added Pin To Net: NetName=GND Pin=CN1-8
+Added Pin To Net: NetName=GND Pin=CN1-9
+Added Pin To Net: NetName=TIMEOUT_FAULT Pin=CN1-10
+Added Pin To Net: NetName=CS Pin=CN1-11
+Added Pin To Net: NetName=DONE_STATUS Pin=CN1-12
+Added Pin To Net: NetName=+3V3 Pin=CN1-14
