@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=PCB
+CurrentVariant=UFL
 
 [Preferences]
 PrefsVaultGUID=
@@ -242,15 +242,12 @@ UniqueId=a312e2ed-42b5-4c32-ac86-a2694bdab593
 Description=UFL
 AllowFabrication=0
 ParameterCount=0
-VariationCount=8
-Variation1=Designator=R1|UniqueId=\QURGSCTO|Kind=1|AlternatePart=
-Variation2=Designator=C1|UniqueId=\YLYGEPMH|Kind=1|AlternatePart=
-Variation3=Designator=L1|UniqueId=\UDOCYPUN|Kind=1|AlternatePart=
-Variation4=Designator=C2|UniqueId=\KMCHICHV|Kind=1|AlternatePart=
-Variation5=Designator=C1|UniqueId=\WUISTMJB|Kind=1|AlternatePart=
-Variation6=Designator=C2|UniqueId=\ZWPCRCFV|Kind=1|AlternatePart=
-Variation7=Designator=C3|UniqueId=\DIKUCGUQ|Kind=1|AlternatePart=
-Variation8=Designator=C4|UniqueId=\YAHIJIEE|Kind=1|AlternatePart=
+VariationCount=5
+Variation1=Designator=C3|UniqueId=\GYBMQLVP|Kind=1|AlternatePart=
+Variation2=Designator=C4|UniqueId=\ZDVSQTJD|Kind=1|AlternatePart=
+Variation3=Designator=C1|UniqueId=\LAKECEZZ|Kind=1|AlternatePart=
+Variation4=Designator=C2|UniqueId=\QNYNKLGO|Kind=1|AlternatePart=
+Variation5=Designator=R1|UniqueId=\VBLYWNBS|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -259,12 +256,16 @@ Description=PCB
 AllowFabrication=0
 ParameterCount=0
 VariationCount=5
-Variation1=Designator=C1|UniqueId=\WUISTMJB|Kind=1|AlternatePart=
-Variation2=Designator=C2|UniqueId=\ZWPCRCFV|Kind=1|AlternatePart=
-Variation3=Designator=C3|UniqueId=\DIKUCGUQ|Kind=1|AlternatePart=
-Variation4=Designator=C4|UniqueId=\YAHIJIEE|Kind=1|AlternatePart=
-Variation5=Designator=R2|UniqueId=\UPEUGJIS|Kind=1|AlternatePart=
+Variation1=Designator=R2|UniqueId=\IYYYDEID|Kind=1|AlternatePart=
+Variation2=Designator=C1|UniqueId=\LAKECEZZ|Kind=1|AlternatePart=
+Variation3=Designator=C2|UniqueId=\QNYNKLGO|Kind=1|AlternatePart=
+Variation4=Designator=C3|UniqueId=\GYBMQLVP|Kind=1|AlternatePart=
+Variation5=Designator=C4|UniqueId=\ZDVSQTJD|Kind=1|AlternatePart=
 ParamVariationCount=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for zbook-rf-shields-LORA-P1\Design Rule Check - zbook-rf-shields-LORA-P1.html
+DItemRevisionGUID=
 
 [Parameter1]
 Name=CheckedProject
